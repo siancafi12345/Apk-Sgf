@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  public url ="http://186.145.53.94/sgf/home";
+  public url ="http://181.61.55.193/sgf/home";
   constructor() {}
   direccion(){
     location.href =this.url;
